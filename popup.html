@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>ITStudio JW Helper</title>
+    <meta charset="utf-8"/>
+    <style>
+        body {
+            font-family: 'Microsoft Yahei';
+            width: 300px;
+            height: 500px;
+        }
+
+        #Logo {
+            position: relative;
+        }
+
+        #Logo .icon_box {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+
+        #Logo .icon_box div {
+            width: 35px;
+            height: 45px;
+            margin: 0 1.5px;
+        }
+
+        #Logo .icon_box .left {
+            background: #BEE7FB;
+            z-index: 1;
+            position: relative;
+            transform: skewY(-30deg);
+            float: left;
+        }
+
+        #Logo .icon_box .left:after {
+            content: " ";
+            width: 35px;
+            height: 45px;
+            background: #71c1f6;
+            z-index: 999;
+            position: absolute;
+            left: 17px;
+            bottom: -18px;
+        }
+
+        #Logo .icon_box .right {
+            transform: skewY(30deg);
+            background: #458BAC;
+            z-index: -1;
+            float: left;
+        }
+
+        #Logo .name_box {
+            vertical-align: middle;
+            display: inline-block;
+            cursor: default;
+        }
+
+        #Logo .name_box .Engsmall {
+            color: #000000;
+            font-size: 30px;
+            font-weight: normal;
+            font-family: SourceHanSansCN-Regular;
+        }
+
+        #Logo .name_box .CNsmall {
+            color: #000000;
+            font-size: 24px;
+            font-weight: normal;
+            font-family: SourceHanSansCN-Regular;
+        }
+    </style>
+</head>
+<body>
+<div id="root">
+    <div id="Logo">
+        <div class="icon_box">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="name_box">
+            <p class='Engsmall'>ITStudio</p>
+            <p class='CNsmall'>爱特工作室</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

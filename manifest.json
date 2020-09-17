@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "ITStudio JW Helper",
+  "description": "优化教务系统使用体验",
+  "version": "0.1",
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "default_locale": "en",
+  "icons": {
+    "16": "asset/icon_larger.png",
+    "32": "asset/icon_larger.png",
+    "48": "asset/icon_larger.png"
+  },
+  "author": "NeWive",
+  "background": {
+
+  }
+}
