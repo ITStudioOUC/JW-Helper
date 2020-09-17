@@ -4,14 +4,78 @@
     <title>ITStudio JW Helper</title>
     <meta charset="utf-8"/>
     <style>
+        * {
+            outline: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            border: 0;
+            vertical-align: middle;
+        }
+
+        select, input {
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button {
+            border: 0;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            border: 0;
+            vertical-align: middle;
+        }
+
+        select, input {
+            vertical-align: middle;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button {
+            border: 0;
+            cursor: pointer;
+        }
+
         body {
             font-family: 'Microsoft Yahei';
             width: 300px;
-            height: 500px;
+            height: 600px;
         }
 
         #Logo {
+            padding-top: 10px;
             position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         #Logo .icon_box {
@@ -70,6 +134,28 @@
             font-size: 24px;
             font-weight: normal;
             font-family: SourceHanSansCN-Regular;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track-piece {
+            background-color: #CCCCCC;
+            -webkit-border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:vertical {
+            height: 5px;
+            background-color: #999999;
+            -webkit-border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:horizontal {
+            width: 5px;
+            background-color: #CCCCCC;
+            -webkit-border-radius: 6px;
         }
     </style>
 </head>
