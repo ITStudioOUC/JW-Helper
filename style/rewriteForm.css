@@ -1,0 +1,16 @@
+#CKWindowContainer {
+    border: 0;
+}
+#CKWindowContainer .hdl {
+    position: absolute;
+    top: -22px;
+    display: flex;
+    justify-content: space-around;
+}
+#CKWindowContainer iframe {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+.tab_container {
+    padding-left: 0px;
+}

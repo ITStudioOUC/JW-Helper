@@ -9,8 +9,6 @@ function reformatOptions(options) {
 function handleDialog() {
     function showModalDialog(url, obj, options) {
         options = options ? reformatOptions(options) : '';
-        console.log(url);
-        console.log(options);
         window.open(url, '_blank', options);
     }
     window.showModalDialog = showModalDialog;

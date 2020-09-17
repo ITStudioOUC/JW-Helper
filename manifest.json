@@ -4,9 +4,7 @@
   "description": "优化教务系统使用体验",
   "version": "0.1",
   "permissions": [
-    "storage",
-    "http://*/*",
-    "https://*/*"
+    "http://jwgl.ouc.edu.cn/*"
   ],
   "browser_action": {
     "default_popup": "popup.html"
@@ -25,8 +23,9 @@
   "content_scripts": [
     {
       "js": ["module/signInInjector.js"],
-      "matches": ["http://jwgl.ouc.edu.cn/cas/login.action"],
-      "run_at": "document_start"
+      "matches": ["http://jwgl.ouc.edu.cn/*"],
+      "run_at": "document_start",
+      "all_frames": true
     },
     {
       "js": ["module/mainInjector.js"],
