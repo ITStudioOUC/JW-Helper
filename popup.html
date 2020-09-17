@@ -65,9 +65,9 @@
         }
 
         body {
-            font-family: 'Microsoft Yahei';
-            width: 300px;
-            height: 600px;
+            width: 500px;
+            height: 250px;
+            padding: 20px;
         }
 
         #Logo {
@@ -94,8 +94,10 @@
             background: #BEE7FB;
             z-index: 1;
             position: relative;
-            transform: skewY(-30deg);
+            transform: skewY(-30deg) translate(-35px, 10px);
             float: left;
+            transition: all .5s ease-in-out;
+            opacity: 0;
         }
 
         #Logo .icon_box .left:after {
@@ -107,19 +109,42 @@
             position: absolute;
             left: 17px;
             bottom: -18px;
+            transform: translate(-35px, 5px);
+            transition: all .5s ease-in-out;
         }
 
         #Logo .icon_box .right {
-            transform: skewY(30deg);
+            transform: skewY(30deg) translate(25px, 20px);
             background: #458BAC;
             z-index: -1;
             float: left;
+            transition: all .5s ease-in-out;
+            opacity: 0;
+        }
+
+        #Logo .finish .left {
+            transform: skewY(-30deg) translate(0px, 0px);
+            opacity: 1;
+        }
+
+        #Logo .finish .left:after {
+            transform: translate(0px, 0px);
+        }
+
+        #Logo .finish .right {
+            transform: skewY(30deg) translate(0px, 0px);
+            opacity: 1;
         }
 
         #Logo .name_box {
             vertical-align: middle;
             display: inline-block;
             cursor: default;
+            opacity: 0;
+            transition: opacity .5s ease-in-out;
+        }
+        #Logo .box_finish {
+            opacity: 1;
         }
 
         #Logo .name_box .Engsmall {
@@ -135,27 +160,50 @@
             font-weight: normal;
             font-family: SourceHanSansCN-Regular;
         }
-
-        ::-webkit-scrollbar {
-            width: 6px;
-            height: 6px;
+        .link {
+            padding-top: 20px;
+            transition: opacity .5s ease-in-out;
+            opacity: 0;
         }
-
-        ::-webkit-scrollbar-track-piece {
-            background-color: #CCCCCC;
-            -webkit-border-radius: 6px;
+        .link_finish {
+            opacity: 1;
         }
-
-        ::-webkit-scrollbar-thumb:vertical {
-            height: 5px;
-            background-color: #999999;
-            -webkit-border-radius: 6px;
+        .link li {
+            margin-left: 40px;
+            border-bottom: none;
+            transition: all .5s ease;
+            margin-bottom: 15px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0 0 0 2px transparent;
+            cursor: pointer;
         }
+        .link li:hover {
+            box-shadow: 0 0 0 2px rgba(105,38,214,.2)
+        }
+        .link li a {
+            font-size: 14px;
+        }
+        .link li a img {
+            width: 40px;
+            height: 40px;
+        }
+        .link li:last-child a img {
+            width: 30px;
+            height: 30px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .link li a span {
+            font-family: SourceHanSansCN-Regular;
+        }
+        .link li a .title {
 
-        ::-webkit-scrollbar-thumb:horizontal {
-            width: 5px;
-            background-color: #CCCCCC;
-            -webkit-border-radius: 6px;
+        }
+        .link li a .url {
+
         }
     </style>
 </head>
@@ -171,6 +219,31 @@
             <p class='CNsmall'>爱特工作室</p>
         </div>
     </div>
+    <ul class="link">
+        <li>
+            <a href="#" id="github">
+                <img src="asset/github.png" alt="">
+                <span class="title">
+                    项目Github:
+                </span>
+                <span class="url">
+                    https://github.com/ITStudioOUC/JW-Helper
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#" id="it">
+                <img src="asset/icon_larger.png" alt="">
+                <span class="title">
+                    联系我们:
+                </span>
+                <span class="url">
+                    http://www.itstudio.club
+                </span>
+            </a>
+        </li>
+    </ul>
 </div>
+<script src="module/popup.js"></script>
 </body>
 </html>

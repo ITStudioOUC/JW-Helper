@@ -4,7 +4,9 @@
   "description": "优化教务系统使用体验",
   "version": "0.1",
   "permissions": [
-    "http://jwgl.ouc.edu.cn/*"
+    "http://*",
+    "https://*",
+    "tabs"
   ],
   "browser_action": {
     "default_popup": "popup.html"
@@ -17,8 +19,7 @@
   },
   "author": "NeWive",
   "background": {
-    "scripts": ["module/background.js"],
-    "persistent": false
+    "scripts": ["module/background.js"]
   },
   "content_scripts": [
     {
@@ -32,6 +33,11 @@
       "matches": ["http://jwgl.ouc.edu.cn/student/report/*", "http://jwgl.ouc.edu.cn:80/student/report/*"],
       "run_at": "document_start",
       "all_frames": true
+    },
+    {
+      "js": ["module/paintedEggShell.js"],
+      "matches": ["http://jwgl.ouc.edu.cn/*"],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [

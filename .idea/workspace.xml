@@ -38,11 +38,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="E:\JetBrainToolBox\apps\WebStorm\ch-0\202.6948.73\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MyJavaScriptRepo\ItstudioProject\ChromeExtension\asset" />
+      <recent name="E:\MyJavaScriptRepo\ItstudioProject\ChromeExtension\module" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyJavaScriptRepo\ItstudioProject\ChromeExtension\asset" />
@@ -57,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600342365580</updated>
-      <workItem from="1600342366666" duration="12737000" />
+      <workItem from="1600342366666" duration="19688000" />
     </task>
     <servers />
   </component>
