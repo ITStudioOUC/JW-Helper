@@ -65,9 +65,14 @@
         }
 
         body {
-            width: 500px;
+            width: 600px;
             height: 250px;
             padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        html {
+            overflow: hidden;
         }
 
         #Logo {
@@ -81,7 +86,9 @@
         #Logo .icon_box {
             display: inline-block;
             vertical-align: middle;
-            margin-right: 20px;
+            margin-right: 0;
+            transform: translate(50%, 100%) scale(2);
+            transition: all .5s ease-in-out;
         }
 
         #Logo .icon_box div {
@@ -120,6 +127,11 @@
             float: left;
             transition: all .5s ease-in-out;
             opacity: 0;
+        }
+
+        #Logo .done {
+            transform: translate(0, 0) scale(1);
+            margin-right: 20px;
         }
 
         #Logo .finish .left {
@@ -181,7 +193,7 @@
             cursor: pointer;
         }
         .link li:hover {
-            box-shadow: 0 0 0 2px rgba(105,38,214,.2)
+            box-shadow: 0 0 0 2px rgba(105,38,214,.2);
         }
         .link li a {
             font-size: 14px;

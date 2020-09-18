@@ -26,7 +26,10 @@ for(let i in l) {
 window.onload = function () {
     document.getElementsByClassName('icon_box')[0].className = document.getElementsByClassName('icon_box')[0].className + ' finish';
     setTimeout(function () {
+        document.getElementsByClassName('icon_box')[0].className = document.getElementsByClassName('icon_box')[0].className + ' done' ;
+    }, 500)
+    setTimeout(function () {
         document.getElementsByClassName('link')[0].className = document.getElementsByClassName('link')[0].className + ' link_finish';
         document.getElementsByClassName('name_box')[0].className = document.getElementsByClassName('name_box')[0].className + ' box_finish';
-    }, 450);
+    }, 700);
 }
