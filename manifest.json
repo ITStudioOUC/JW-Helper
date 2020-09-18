@@ -4,8 +4,6 @@
   "description": "优化教务系统使用体验",
   "version": "0.1",
   "permissions": [
-    "http://*",
-    "https://*",
     "tabs"
   ],
   "browser_action": {
