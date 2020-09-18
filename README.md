@@ -7,22 +7,21 @@
 ### Version 0.1
 
 -   教务通知无法点击打开的问题
-
-[![GDNNU.png](https://wx1.sbimg.cn/2020/09/18/GDNNU.png)](https://sbimg.cn/image/GDNNU)
+![image-20200918112201857](README.assets/image-20200918112201857.png)
 
 -   校内通知无法点击打开的问题
 
-![GPX0N.png](https://wx2.sbimg.cn/2020/09/18/GPX0N.png)
+![image-20200918112526124](README.assets/image-20200918112526124.png)
 
 -   选项卡无法点击切换的问题
 
-![GDl0d.png](https://wx1.sbimg.cn/2020/09/18/GDl0d.png)
+![image-20200918112259337](README.assets/image-20200918112259337.png)
 
 -   弹出窗口的样式的微调（好像也不算什么问题
 
-![GP5bD.png](https://wx1.sbimg.cn/2020/09/18/GP5bD.png)
+![image-20200918112411760](README.assets/image-20200918112411760.png)
 
-![GDf3O.png](https://wx1.sbimg.cn/2020/09/18/GDf3O.png)
+![image-20200918112436387](README.assets/image-20200918112436387.png)
 
 
 
