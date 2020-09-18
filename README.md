@@ -8,21 +8,21 @@
 
 -   教务通知无法点击打开的问题
 
-![image-20200918112201857](img/image-20200918112201857.png)
+[![GDNNU.png](https://wx1.sbimg.cn/2020/09/18/GDNNU.png)](https://sbimg.cn/image/GDNNU)
 
 -   校内通知无法点击打开的问题
 
-![image-20200918112526124](img/image-20200918112526124.png)
+![GPX0N.png](https://wx2.sbimg.cn/2020/09/18/GPX0N.png)
 
 -   选项卡无法点击切换的问题
 
-![image-20200918112259337](img/image-20200918112259337.png)
+![GDl0d.png](https://wx1.sbimg.cn/2020/09/18/GDl0d.png)
 
 -   弹出窗口的样式的微调（好像也不算什么问题
 
-![image-20200918112411760](img/image-20200918112411760.png)
+![GP5bD.png](https://wx1.sbimg.cn/2020/09/18/GP5bD.png)
 
-![image-20200918112436387](img/image-20200918112436387.png)
+![GDf3O.png](https://wx1.sbimg.cn/2020/09/18/GDf3O.png)
 
 
 
@@ -62,23 +62,23 @@ Chromium 内核浏览器
 
    - 点击右上角三个点，选择更多工具中的拓展程序
 
-     ![Chrome-1](./img/Chrome-1.png)
+     ![GDZUo.png](https://wx2.sbimg.cn/2020/09/18/GDZUo.png)
 
    - 开启右上角的开发者模式
 
-     ![Chrome-2](./img/Chrome-2.png)
+     ![GDWkT.png](https://wx2.sbimg.cn/2020/09/18/GDWkT.png)
 
    - 选择加载已解压的扩展程序
 
-     ![Chrome-3](./img/Chrome-3.png)
+     ![GDHNG.png](https://wx2.sbimg.cn/2020/09/18/GDHNG.png)
 
    - 选择压缩文件解压后的文件夹
 
-     ![Chrome-4](./img/Chrome-4.png)
+     ![GDv4l.png](https://wx2.sbimg.cn/2020/09/18/GDv4l.png)
 
    - 插件安装成功
 
-     ![Chrome-5](./img/Chrome-5.png)
+     ![GDYsw.png](https://wx2.sbimg.cn/2020/09/18/GDYsw.png)
 
    
 
@@ -86,23 +86,23 @@ Chromium 内核浏览器
 
    - 点击右上角三个点，选择扩展
 
-     ![Edge-1](./img/Edge-1.png)
+     [![GDUB1.png](https://wx1.sbimg.cn/2020/09/18/GDUB1.png)](https://sbimg.cn/image/GDUB1)
 
    - 开启左下角的开发人员模式和允许来自其他应用商店的扩展
 
-     ![Edge-2](./img/Edge-2.png)
+     ![GDiK2.png](https://wx1.sbimg.cn/2020/09/18/GDiK2.png)
 
    - 选择加载解压的扩展
 
-     ![Edge-3](./img/Edge-3.png)
+     ![GDnT8.png](https://wx1.sbimg.cn/2020/09/18/GDnT8.png)
 
    - 选择压缩文件解压后的文件夹
 
-     ![Edge-4](./img/Edge-4.png)
+     [![GD83J.png](https://wx1.sbimg.cn/2020/09/18/GD83J.png)](https://sbimg.cn/image/GD83J)
 
    - 插件安装成功
 
-     ![Edge-5](./img/Edge-5.png)
+     [![GDEem.png](https://wx1.sbimg.cn/2020/09/18/GDEem.png)](https://sbimg.cn/image/GDEem)
 
    
 
@@ -110,24 +110,24 @@ Chromium 内核浏览器
 
    - 点击右上角三个横杠，选择应用中心
 
-     ![QQBrowser-1](./img/QQBrowser-1.png)
+     ![GDVK7.png](https://wx1.sbimg.cn/2020/09/18/GDVK7.png)
 
    - 选择管理我的应用
 
-     ![QQBrowser-2](./img/QQBrowser-2.png)
+     ![GDT5A.png](https://wx2.sbimg.cn/2020/09/18/GDT5A.png)
 
    - 开启右上角的开发者模式
 
    - 选择加载已解压的扩展程序
 
-     ![QQBrowser-3](./img/QQBrowser-3.png)
+     ![GDyBV.png](https://wx2.sbimg.cn/2020/09/18/GDyBV.png)
 
    - 选择压缩文件解压后的文件夹
-     ![QQBrowser-4](./img/QQBrowser-4.png)
+     ![GDOUY.png](https://wx2.sbimg.cn/2020/09/18/GDOUY.png)
 
    - 插件安装成功
 
-     ![QQBrowser-5](./img/QQBrowser-5.png)
+     ![GDrJ4.png](https://wx2.sbimg.cn/2020/09/18/GDrJ4.png)
 
 4. 现在可以愉快地玩耍教务系统了
 
