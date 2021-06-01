@@ -38,72 +38,69 @@ Chromium 内核浏览器
 
    - 点击右上角三个点，选择更多工具中的拓展程序
 
-     ![GDZUo.png](https://wx2.sbimg.cn/2020/09/18/GDZUo.png)
+     ![](img/Chrome-1.png)
 
    - 开启右上角的开发者模式
 
-     ![GDWkT.png](https://wx2.sbimg.cn/2020/09/18/GDWkT.png)
+     ![](img/Chrome-2.png)
 
    - 选择加载已解压的扩展程序
 
-     ![GDHNG.png](https://wx2.sbimg.cn/2020/09/18/GDHNG.png)
+     ![](img/Chrome-3.png)
 
    - 选择压缩文件解压后的文件夹
 
-     ![GDv4l.png](https://wx2.sbimg.cn/2020/09/18/GDv4l.png)
+     ![](img/Chrome-4.png)
 
    - 插件安装成功
 
-     ![GDYsw.png](https://wx2.sbimg.cn/2020/09/18/GDYsw.png)
-
-   
+     ![](img/Chrome-5.png)
 
    新版 Microsoft Edge 安装流程：
 
    - 点击右上角三个点，选择扩展
 
-     [![GDUB1.png](https://wx1.sbimg.cn/2020/09/18/GDUB1.png)](https://sbimg.cn/image/GDUB1)
+     ![](img/Edge-1.png)
 
    - 开启左下角的开发人员模式和允许来自其他应用商店的扩展
 
-     ![GDiK2.png](https://wx1.sbimg.cn/2020/09/18/GDiK2.png)
+     ![](img/Edge-2.png)
 
    - 选择加载解压的扩展
 
-     ![GDnT8.png](https://wx1.sbimg.cn/2020/09/18/GDnT8.png)
+     ![](img/Edge-3.png)
 
    - 选择压缩文件解压后的文件夹
 
-     [![GD83J.png](https://wx1.sbimg.cn/2020/09/18/GD83J.png)](https://sbimg.cn/image/GD83J)
+     ![](img/Edge-4.png)
 
    - 插件安装成功
 
-     [![GDEem.png](https://wx1.sbimg.cn/2020/09/18/GDEem.png)](https://sbimg.cn/image/GDEem)
-
-   
+     ![](img/Edge-5.png)
 
    QQ 浏览器 for Windows 安装流程：
 
    - 点击右上角三个横杠，选择应用中心
 
-     ![GDVK7.png](https://wx1.sbimg.cn/2020/09/18/GDVK7.png)
+     ![](img/QQBrowser-1.png)
 
    - 选择管理我的应用
 
-     ![GDT5A.png](https://wx2.sbimg.cn/2020/09/18/GDT5A.png)
+     ![](img/QQBrowser-2.png)
 
    - 开启右上角的开发者模式
 
    - 选择加载已解压的扩展程序
 
-     ![GDyBV.png](https://wx2.sbimg.cn/2020/09/18/GDyBV.png)
+     ![](img/QQBrowser-3.png)
 
    - 选择压缩文件解压后的文件夹
-     ![GDOUY.png](https://wx2.sbimg.cn/2020/09/18/GDOUY.png)
+
+     ![](img/QQBrowser-4.png)
 
    - 插件安装成功
 
-     ![GDrJ4.png](https://wx2.sbimg.cn/2020/09/18/GDrJ4.png)
+     ![](img/QQBrowser-5.png)
 
 4. 现在可以愉快地玩耍教务系统了
 
@@ -112,6 +109,7 @@ Chromium 内核浏览器
 ### Version 0.1
 
 -   教务通知无法点击打开的问题
+
 ![image-20200918112201857](README.assets/image-20200918112201857.png)
 
 -   校内通知无法点击打开的问题
@@ -128,16 +126,13 @@ Chromium 内核浏览器
 
 ![image-20200918112436387](README.assets/image-20200918112436387.png)
 
-
-
-
 ## 问题
 
 如果插件在使用中出现问题，请联系我们。
 
 ## Ideas
 
-大家可以在该项目的 issue 中提出想要优化的东西，我们会尝试进行解决
+大家可以在该项目的 issue 中提出想要优化的东西，我们会尝试进行解决。
 
 ## 联系我们
 
@@ -148,4 +143,3 @@ Chromium 内核浏览器
 本项目 Github 地址：https://github.com/ITStudioOUC/JW-Helper
 
 中国海洋大学崂山校区信息科学与工程学院北楼 B505
-
